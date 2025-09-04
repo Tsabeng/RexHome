@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Produits from './components/Produits/Produits'
 import NosValeurs from './components/NosValeurs/NosValeurs'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 function App() {
 
 
@@ -33,7 +34,9 @@ function App() {
           </div>
         </section>
         <section className="conteneur-footer">
-          
+          <div className="footer">
+            <Footer className/>
+          </div>
         </section>
       </div>
     </>
